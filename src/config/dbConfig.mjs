@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 export async function connectDB() {
     try {
         await mongoose.connect(
-            'mongodb+srv://grupo-01:grupo01@cursadanodejs.ls9ii.mongodb.net/Node-js', {
+            'mongodb+srv://Grupo-20:grupo20@cursadanodejs.ls9ii.mongodb.net/Node-js?retryWrites=true&w=majority', {
             serverSelectionTimeoutMS: 5000
             // useNewUrlParser: true,
             // useUnifiendTopology: true
